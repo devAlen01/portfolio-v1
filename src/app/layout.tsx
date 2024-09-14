@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.scss";
-import LayoutClient from "./(site)/layout";
 
 const montserratSans = localFont({
   src: "./fonts/Montserrat-VariableFont_wght.ttf",
