@@ -26,6 +26,7 @@ const Contacts = () => {
       parse_mode: "html",
       text: messageModel(data),
     });
+    reset();
   };
 
   return (
